@@ -1,0 +1,41 @@
+
+
+
+body {
+    background-color: #d1d5db;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin-top: 5%;
+
+    text-align: center;
+}
+
+.confirmation-box {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-success {
+    margin-right: 5px;
+    /* Agrega un margen derecho al botón "Sí" */
+}
